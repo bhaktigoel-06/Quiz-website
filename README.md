@@ -23,3 +23,7 @@ This is my first quiz website project built using HTML, CSS, and JavaScript.
 
 ## 👩‍💻 Author
 Bhakti Goel
+
+## 🌐 Live Website
+✨Click here to view:
+(https://bhaktigoel-06.github.io/Quiz-website/)
