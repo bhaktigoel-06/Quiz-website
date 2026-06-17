@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+
+    <div id="question-container" class="hide">
+        <div id="question"></div>
+        <div id="answer-buttons" class="btn-grid"></div>
+    </div>
+
+    <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+
+    <!-- FINAL SCORE SCREEN -->
+    <div id="end-screen" class="hide">
+        <h2>Score: <span id="right-answers">0</span></h2>
+        <button onclick="restartQuiz()">Restart 🔄</button>
+    </div>
+
+</div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
